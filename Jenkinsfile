@@ -10,7 +10,7 @@ pipeline {
                     doGenerateSubmoduleConfigurations: false, 
                     extensions: [], 
                     submoduleCfg: [], 
-                    userRemoteConfigs: [[url: 'https://github.com/MohitThakur051998/jenkins_test.git']]
+                    userRemoteConfigs: [[url: 'https://github.com/Akash-cool20/Devopstest2.git']]
                 ])
             }
         }
@@ -19,7 +19,7 @@ pipeline {
             steps {
                 // Copy the code to the Apache document root directory
                 bat script: '''
-                    xcopy /s /e /y "C:\\Users\\mohit\\OneDrive\\Desktop\\New folder (2)" "C:\\Apache24\\htdocs"
+                    xcopy /s /e /y "G:\\Courses\\SEM 3\\CA-306 DEVOPS(3)\\test2" "C:\\Apache24\\htdocs"
                 '''
             }
         }
